@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto SASS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="build/main.css">
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Logo</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Home -->
+        <section id="home" class="py-5">
+            <div class="container">
+                <h2>Bem-vindo ao Nosso Site!</h2>
+                <p>Descubra os melhores produtos e ofertas. Navegue pelas nossas seções para conhecer mais sobre nós e o que temos a oferecer.</p>
+                <p>Estamos comprometidos em oferecer qualidade e inovação em tudo o que fazemos.</p>
+            </div>
+        </section>
+
+        <!-- Seção Produtos -->
+        <section id="produtos" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center">Nossos <span class="text-highlight">Produtos</span></h2>
+                <div class="row mt-4 pb-5 pt-5">
+                    <div class="col-md-4 mb-4">
+                        <img src="images/a1.jpg" class="d-block w-100 rounded" alt="Produto 1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt natus fugiat nihil molestias! Quia rerum minima quibusdam illo nemo soluta officiis saepe, eveniet,
+                             aut cum tenetur magni possimus amet eius!
+                       </p>
+                        <a href="#" class="product-button mt-3 d-block text-center">Comprar</a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="images/a3.jpg" class="d-block w-100 rounded" alt="Produto 2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt natus fugiat nihil molestias! Quia rerum minima quibusdam illo nemo soluta officiis saepe, eveniet,
+                             aut cum tenetur magni possimus amet eius!
+                       </p>
+                        <a href="#" class="product-button mt-3 d-block text-center">Comprar</a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="images/a4.jpg" class="d-block w-100 rounded" alt="Produto 3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt natus fugiat nihil molestias! Quia rerum minima quibusdam illo nemo soluta officiis saepe, eveniet,
+                             aut cum tenetur magni possimus amet eius!
+                       </p>
+                        <a href="#" class="product-button mt-3 d-block text-center">Comprar</a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="images/a8.jpg" class="d-block w-100 rounded" alt="Produto 4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt natus fugiat nihil molestias! Quia rerum minima quibusdam illo nemo soluta officiis saepe, eveniet,
+                             aut cum tenetur magni possimus amet eius!
+                       </p>
+                        <a href="#" class="product-button mt-3 d-block text-center">Comprar</a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="images/a7.jpg" class="d-block w-100 rounded" alt="Produto 5">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt natus fugiat nihil molestias! Quia rerum minima quibusdam illo nemo soluta officiis saepe, eveniet,
+                             aut cum tenetur magni possimus amet eius!
+                       </p>
+                        <a href="#" class="product-button mt-3 d-block text-center">Comprar</a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="images/a5.jpg" class="d-block w-100 rounded" alt="Produto 6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Deserunt natus fugiat nihil molestias! Quia rerum minima quibusdam illo nemo soluta officiis saepe, eveniet,
+                              aut cum tenetur magni possimus amet eius!
+                        </p>
+                        <a href="#" class="product-button mt-3 d-block text-center">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="py-5 bg-sucess">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2>Sobre Nós</h2>
+                        <p>Somos uma empresa dedicada a fornecer produtos de alta qualidade para nossos clientes. Com anos de experiência no mercado, nossa missão é entregar excelência em cada produto que oferecemos.</p>
+                        <p>Nosso compromisso com a satisfação do cliente e a inovação nos torna um dos líderes no setor.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/a4.jpg" alt="Sobre Nós" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-4">Contato</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Seu Nome</label>
+                                <input type="text" id="name" class="form-control" placeholder="Digite seu nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Seu E-mail</label>
+                                <input type="email" id="email" class="form-control" placeholder="Digite seu e-mail">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telephone" class="form-label">Seu Telefone</label>
+                                <input type="tel" id="telephone" class="form-control" placeholder="(XX) XXXXX-XXXX">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Sua Mensagem</label>
+                                <textarea class="form-control" id="message" placeholder="Digite sua mensagem" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="mb-3">Endereço</h3>
+                        <p>123 Coffee Street, Brewtown, Caffeine City</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

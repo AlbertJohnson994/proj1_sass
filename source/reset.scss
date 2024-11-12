@@ -1,0 +1,20 @@
+// Arquivo: _reset.scss
+
+@use 'variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: variables.$background-color;
+  //color: #4d4d4d;
+  line-height: 1.6;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,51 @@
+// Arquivo: _products.scss
+@use 'variables';
+
+.products {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    column-gap: 4%;
+    row-gap: 4%;
+    width: 100%;
+    .h1{
+      text-align: none;
+      font-size: 2%;
+      
+    }
+  
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(3, 30%);
+    }
+  
+    @media (max-width: 1023px) {
+      grid-template-columns: repeat(2, 48%);
+    }
+  
+    @media (max-width: 767px) {
+      grid-template-columns: 100%;
+    }
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+  }
+  
+  .product-button  {
+    display: block;
+    background-color: variables.$secondary-color;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+   
+  
+    &:hover {
+      background-color: variables.$hover-color;
+    }
+  }
+  
